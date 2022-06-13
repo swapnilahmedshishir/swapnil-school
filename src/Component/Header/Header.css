@@ -1,0 +1,62 @@
+.header {
+  margin-top: 0px;
+  background-color: black;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.input-field {
+  width: 51%;
+  /* margin-left: 20px; */
+}
+#inputPassword5 {
+  background-color: #ebe3e3;
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+}
+.shoping {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  color: white;
+}
+
+#faCart {
+  font-size: 28px;
+  color: #ebee3f;
+}
+.cart-value {
+  background-color: red;
+  color: white;
+  padding: 4px 9px;
+  border-radius: 100%;
+  text-align: center;
+  font-weight: 800;
+  font-size: 18px;
+  align-items: center;
+  position: relative;
+  left: -24px;
+  top: -19px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .cart-value {
+    position: relative;
+    left: -80px;
+    top: -19px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cart-value {
+    position: relative;
+    left: -140px;
+    top: -19px;
+  }
+}
+
+.price_total {
+  color: red;
+  font-weight: 500;
+  font-size: 20px;
+}

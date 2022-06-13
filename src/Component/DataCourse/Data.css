@@ -1,0 +1,32 @@
+.card {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  max-width: 600px;
+  border: 2px solid gray;
+  padding: 5px 10px;
+  height: 650px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.btn-enroll {
+  width: 200px;
+  margin: 0 auto;
+  border: 2px solid #297c3d;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin-top: 15px;
+}
+.btn-enroll:hover {
+  background-color: #089208;
+}
